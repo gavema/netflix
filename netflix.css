@@ -1,0 +1,42 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    color: #E50914;
+    font-family: 'Bebas Neue';
+}
+.userChoice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 60px;
+    font-family: 'Rubik', sans-serif;  
+}
+.users {
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    color: grey;     
+}
+.footer {
+    font-size: 30px;
+    text-align: center;
+}
+div.style-button:hover {
+    background-color: rgb(34, 33, 33);
+    cursor:pointer;
+}
+.style-button {
+    display: flex;
+    background-color: rgb(12, 11, 11);
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
